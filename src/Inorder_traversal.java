@@ -11,6 +11,7 @@ class Node{
         right = left = null;
     }
 }
+
 public class Inorder_traversal {
 
     static void inorder_traversal(Node root, ArrayList<Integer> list){
@@ -41,9 +42,6 @@ public class Inorder_traversal {
         ArrayList<Integer>  res =  inorder(root);
 
         System.out.println(res);
-
-
-
-
+        
     }
 }
